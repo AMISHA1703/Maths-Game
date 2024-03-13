@@ -140,6 +140,24 @@ body {
   border-radius: 5px;
   float: right;
   box-shadow: 3px 2px 4px 2px rgb(224, 117, 205) ;
+  display: none;
 
 
+}
+.gameover{
+  width:480px;
+  height: 240px;
+  background:linear-gradient(rgb(193, 153, 236),rgb(181, 113, 236));
+  font-size: 60px;
+  color: white;
+  position: absolute;
+  top:230px;
+  left: 77px;
+  text-align: center;
+  padding: 8px;
+  border-radius: 7px;
+  text-transform: uppercase;
+  box-shadow: 3px 2px 4px 2px rgb(235, 192, 227) ;
+ display: none;
+  
 }
