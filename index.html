@@ -10,7 +10,7 @@
     <div class="container">
       <div class="box">
         <div class="score">
-          <p>score : <span>0</span></p>
+          <p>score : <span is="scorevalue">0</span></p>
         </div>
         <div class="result1">
           <p>Try Again</p>
@@ -40,6 +40,9 @@
       </div>
       <div class="submit">
         <input type="button" id="ans" value="Start Game">
+        <p id="timeleft">Time Remaining :
+          <span id="timeremaining">60 sec</span>
+        </p>
       </div>
     </div>
 
